@@ -18,7 +18,7 @@ namespace BDD.Helpers
         public IWebElement GetElementById(string id)
         {
             IWebElement element = null;
-            int maxAttemps = 10;
+            int maxAttemps = 20;
             int attemp = 0;
 
             do
