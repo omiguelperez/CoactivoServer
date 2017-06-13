@@ -70,7 +70,7 @@ namespace BDD.Steps
             System.Threading.Thread.Sleep(2000);
             string txt =  driver.FindElement(By.XPath("/html/body/div[5]/div[2]/div/div")).Text;
             Assert.AreEqual(p0,txt);
-            System.Threading.Thread.Sleep(500);
+            System.Threading.Thread.Sleep(2000);
             driver.Quit();
         }
     }

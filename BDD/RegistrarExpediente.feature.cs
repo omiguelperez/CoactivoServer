@@ -67,8 +67,7 @@ namespace BDD
         [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("Registro de Expediente exitoso")]
         [NUnit.Framework.CategoryAttribute("mytag")]
-        [NUnit.Framework.TestCaseAttribute("C:\\Windows\\Web\\Wallpaper\\Theme2\\img8.jpg", new string[0])]
-        [NUnit.Framework.TestCaseAttribute("C:\\Windows\\Web\\Wallpaper\\Windows\\img0.jpg", new string[0])]
+        [NUnit.Framework.TestCaseAttribute("C:\\Users\\omiguelperez\\Desktop\\CoactivoServer\\BDD\\Images\\img8.jpg", new string[0])]
         public virtual void RegistroDeExpedienteExitoso(string ubicacion, string[] exampleTags)
         {
             string[] @__tags = new string[] {

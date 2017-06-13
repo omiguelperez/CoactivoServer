@@ -13,6 +13,5 @@ Scenario Outline: Registro de Expediente exitoso
 	When presione el boton subir archivo
 	Then el sistema me responde "Hecho"
 	Examples: 
-	| ubicacion                                     |
-	| C:\Windows\Web\Wallpaper\Theme2\img8.jpg		|
-	| C:\Windows\Web\Wallpaper\Windows\img0.jpg     |
+	| ubicacion															|
+	| C:\Users\omiguelperez\Desktop\CoactivoServer\BDD\Images\img8.jpg	|
