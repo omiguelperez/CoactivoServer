@@ -48,7 +48,7 @@ namespace AspNetIdentity.Providers
 
             var userManager = context.OwinContext.GetUserManager<ApplicationUserManager>();
 
-            user = await userManager.FindAsync(context.UserName, context.Password);
+            user = await userManager.FindAsync(context.UserName + ".", context.Password);
 
             var _applicationDbContext = new ApplicationDbContext();
 
